@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Belajar Elemen Form HTML</title>
+    </head>
+    <body>
+        <form>
+            Nama : 
+            <input type="text" name="txtNama" placeholder="Input nama anda">
+            <br>
+            Password :
+            <input type="password" name="txtPassword" placeholder="Input password anda">
+            <br>
+            Nomor Handphone
+            <input type="number" maxlength="14" min="1" max="9">
+            <br>
+            Tanggal Lahir
+            <input type="date">
+            <br> 
+            Range   
+            <input type="range" min="1" max="100" step="1" value="0">
+            <br>
+            Agama
+            <select name="cboAgama">
+                <option value="Islam">ISLAM</option>
+                <option value="Kristen">KRISTEN</option>
+                <option value="Hindu">HINDU</option>
+                <option value="Budha">BUDHA</option>
+            </select>
+            <br>
+            Alamat
+            <textarea name="txtAlamat" id="" cols="50" rows="2"></textarea>
+            <br>
+            Jenis Kelamin
+            <input type="radio" value="L">Laki-laki
+            <input type="radio" value="P">Perempuan
+            <br>
+            Hobby
+            <input type="checkbox" value="Game">Game
+            <input type="checkbox" value="Kaluru">Kaluru
+            <input type="checkbox" value="Main Bola">Main Bola
+            <input type="checkbox" value="Menari">Menari
+            <br>
+            <input type="submit" value="Rekam Data">
+            <input type="reset" value="Bersihkan Isian">
+        </form>
+    </body>
+</html>
